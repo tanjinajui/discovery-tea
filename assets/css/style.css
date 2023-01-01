@@ -1,0 +1,365 @@
+/* ==========================================================================
+    Template Name: RexList - Sass & App Landing HTML5 Template
+    Template URI: http://dreamroadtech.com/templates/morix-preview/
+    Description: RexList - Sass & App Landing HTML5 Template
+    Author: Tanjina
+    Author URI: http://www.tanjina.ml.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header css
+3. Home css
+4. Features css
+5. Developer css
+6. History css
+7. Process css
+8. Action css
+9. Software css
+10. Price css
+11. Testimonial css
+12. News css
+13. Blog page css 
+14. Blog-Side-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+   Google Font
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+   /*...................................
+      1. Template default css
+      ................................... */    
+      body {
+        font-family: 'Karla', sans-serif;
+        overflow-x: hidden;
+        font-size: 16px;
+      }
+      
+      a,
+      .button {
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+      }
+      
+      a:focus,
+      .btn:focus {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none;
+      }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        color: #131943;
+        }
+
+        p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 14px;
+        line-height: 32px;
+        color: #566977;
+        }
+        
+        /* ul {
+            list-style: outside none none;
+          }
+          
+          li {
+            list-style: none;
+            display: inline-block;
+            cursor: pointer;
+          } */
+        
+        a:focus,
+        select:focus,
+        input:focus{
+          text-decoration: none  !important;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+      .form-control:focus {
+        outline: 0;
+        box-shadow:none;
+      }
+      ::placeholder{
+        color: #7c7bae !important;
+      }
+      [type="color"]:focus,
+      [type="date"]:focus,
+      [type="datetime"]:focus,
+      [type="datetime-local"]:focus,
+      [type="email"]:focus,
+      [type="month"]:focus,
+      [type="number"]:focus,
+      [type="password"]:focus,
+      [type="search"]:focus,
+      [type="tel"]:focus,
+      [type="text"]:focus,
+      [type="time"]:focus,
+      [type="url"]:focus,
+      [type="link"]:focus,
+      input:not([type]):focus,
+      textarea:focus{
+        border-color: #000a3b;
+      }
+      /*------ 1. default-css ------*/
+      .section-padding-top{
+        padding-top: 100px;
+      }
+      .section-padding-bottom{
+        padding-bottom: 100px;
+      }
+      .section-padding{
+        padding: 0 100px;
+      }
+      
+      /* ==========================================================================
+         Author's custom styles
+         ========================================================================== */
+      
+      /*...................................
+         2. Header css
+         ................................... */
+         .logo img {
+          width: 100px;
+      }
+      .main-menu li a {
+        text-transform: uppercase;
+        color: #9f9f9d;
+        font-size: 15px;
+      }
+      .main-menu li a.active{
+        color: #42a646;
+      }
+      .main-menu li a:hover{
+        color: #42a646;
+      }
+      /*...................................
+         3. Home css
+         ................................... */
+         .carousel-item img {
+          height: 100vh;
+      }
+      button.carousel-control-prev {
+        display: none;
+      }
+    
+      button.carousel-control-next {
+          display: none;
+      }
+      .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    .carousel-caption {
+      text-align: left;
+      color: #fff;
+    }
+    .carousel-caption h5{
+      color:#0b0b0b;
+    }
+    .carousel-caption p{
+      color:#0b0b0b;
+    }
+    /*...................................
+         4. About css
+         ................................... */
+    .title {
+      margin-left: 20%;
+  }
+    .title h1{
+      position: relative;
+    }
+    .title h1::before {
+      content: "";
+      position: absolute;
+      height: 5px;
+      border-bottom: 4px solid #42a646;
+      top: 30%;
+      width: 80px;
+      right: 100%;
+      margin-right: 15px;
+      display: block;
+  }
+  .about-bg img {
+    position: absolute;
+    bottom: -27%;
+    left: -12%;
+    width: 80%;
+    height: 46vh;
+}
+
+.about-left {
+    position: relative;
+}
+
+.title p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    padding: 25px;
+}
+.about-right img {
+    height: 492px;
+    width: 83%;
+    margin: 0 auto;
+    display: block;
+}
+/*...................................
+         5. Journey css
+         ................................... */
+.journey-bg {
+  background-color: #f4f4f4;
+}
+.journey-right ul li {
+  padding: 10px;
+  list-style: disc !important;
+  color: #566977;
+}
+/*...................................
+         6. Global css
+         ................................... */
+.global-bg{
+  background-image: url(../images/pouring-black-tea-into-glass-260nw-1794210106.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.global-title h1 {
+  text-align: center;
+  /* color: #fff; */
+  padding: 50px;
+  font-size: 52px;
+}
+
+.global-text {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.global-text h1 {
+  color: #fff;
+}
+
+.global-text p {
+  color: #fff;
+  font-size: 20px;
+}
+/*...................................
+         7. Product css
+         ................................... */
+.product-content {
+  background: #f9f8f8;
+  padding: 20px;
+}
+.product-content h3 {
+  font-size: 20px;
+}
+.product-content h3 {
+  font-size: 20px;
+}
+
+.product-img i {
+  background: green;
+  color: #fff;
+  padding: 18px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.product-img img {
+  /* position: relative; */
+}
+
+.product-img {
+  position: relative;
+}
+.owl-theme .owl-nav{
+  text-align: right;
+}
+.owl-nav {
+  position: absolute;
+  top: -45px;
+  right: -15px;
+}
+.all-latest-product .owl-nav .owl-prev, .all-latest-product .owl-nav .owl-next {
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  width: 35px;
+  border: 1px solid !important;
+  border-radius: 5px;
+  color: #666666;
+  font-size: 20px;
+}
+/*...................................
+         8. footer css
+         ................................... */
+.footer-top {
+  background: #2F2F2F;
+  padding: 50px;
+  color: #fff;
+}
+
+.footer-title h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+ul.links li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  transition: all linear .5s;
+}
+ul.links li:hover{
+  background-color: gray;
+}
+ul.links li a {
+  color: #dedede;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer-content p {
+  color: #dedede;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 26px;
+  padding-top: 16px;
+}
+
+.footer-bottom {
+  background: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.copy-text p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.copy-text p a {
+  color: #fff;
+}
